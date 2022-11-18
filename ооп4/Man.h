@@ -23,7 +23,7 @@ public:
 	@param Man* this
 	@return NULL
 	*/
-	~Man();
+	virtual ~Man();
 	/*
 	<Сеттер имени>
 	@param Man* this

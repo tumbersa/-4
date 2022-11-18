@@ -25,7 +25,7 @@ public:
 	@param Student* this
 	@return NULL
 	*/
-	~Student();
+	~Student() override;
 	/*
 	<Сеттер года обучения>
 	@param Student* this

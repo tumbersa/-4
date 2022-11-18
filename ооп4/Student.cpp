@@ -17,6 +17,7 @@ int Student::get_year() {
 void Student::add() {
 	(* year)++;
 }
+
 Student& Student::operator=(Student a) {
 	*name = *a.name;
 	*age = *a.age;
